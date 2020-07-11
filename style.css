@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: myFont;
+    src: url(fonts/digital-7.ttf);
+  }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clock h1{
+ font-size: 70px;   
+ font-family: myFont;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.clock{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px;
+    border-radius: 10px;
+    height: 100px;
+    width: 400px;
+    border: 1px solid white;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+#re,#his,#try{
+    font-size: 30px;
+}
+#lap-container{
+    list-style: none;
+    font-size: 30px;
+}
+.lap-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
